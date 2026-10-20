@@ -1,6 +1,6 @@
 # Psilocybin wDC
 
-Analysis pipeline for a resting-state fMRI study of psilocybin, estimating
+Analysis pipeline for a resting-state fMRI study of psilocybin in autistic and non-autistic individuals, estimating
 voxel-wise weighted degree centrality (wDC) and testing for group/dose
 effects with linear mixed models.
 
