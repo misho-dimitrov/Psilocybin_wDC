@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Qodo AI tool scaffold (not part of the pipeline)
+.qodo/
+
+# Byte-compiled Python
+__pycache__/
+*.py[cod]
+
+# Environments
+.env
+.venv

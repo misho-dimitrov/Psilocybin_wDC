@@ -1,0 +1,11 @@
+name: PSILAUT_Stats_env
+channels:
+  - defaults
+dependencies:
+  - r-base
+  - r-furrr
+  - r-future.batchtools
+  - r-lme4
+  - r-neurobase
+  - r-readr
+  - r-tidyverse

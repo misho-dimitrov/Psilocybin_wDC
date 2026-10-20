@@ -1,0 +1,15 @@
+name: wDC
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9  # or any other version you prefer
+  - pandas
+  - numpy
+  - matplotlib
+  - nibabel
+  - nilearn
+  - scikit-learn
+  - graph-tool
+  - pip  # to potentially add pip packages later
