@@ -1,6 +1,8 @@
 # Psilocybin wDC
 
-Analysis pipeline for a resting-state fMRI study of psilocybin in autistic and non-autistic individuals, estimating
+Analysis pipeline for a resting-state fMRI investigation of psilocybin in
+autistic and non-autistic individuals, as part of the PSILAUT study
+([Whelan et al., 2024](https://link.springer.com/article/10.1186/s12888-024-05768-2)), estimating
 voxel-wise weighted degree centrality (wDC) and testing for group/dose
 effects with linear mixed models.
 
@@ -21,7 +23,7 @@ The pipeline is organized into four sequential steps, each in its own folder.
 Voxel-wise weighted degree centrality estimation:
 - `DC.py` — orchestrates the full per-subject wDC pipeline (entry point run
   by `setup_and_run_wDC_analysis.sh`).
-- `img_load.py` / `mask_img_load.py` — load the BOLD image and grey-matter mask.
+- `img_load.py` / `mask_img_load.py` — loads the BOLD image and grey-matter mask.
 - `extract_time_series.py` — extracts voxel-wise timeseries within the mask.
 - `cos_sim_func.py` — computes the voxel-by-voxel cosine similarity
   (connectivity/adjacency) matrix.
